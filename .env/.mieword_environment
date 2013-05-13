@@ -6,9 +6,8 @@ source /etc/fsl/5.0/fsl.sh
 source /software/common/bin/fss 5.1.0 > /dev/null
 
 # add PATHs
-export PATH=/software/ANTS/versions/120325:$PATH
-export PATH=/software/ANTS-dev/bin:$PATH
-export ANTSPATH=/software/ANTS/versions/120325/
+export PATH=/software/ANTS/versions/120222/bin/:$PATH
+export ANTSPATH=/software/ANTS/versions/120222/bin/
 export ITK_GLOBAL_DEFAULT_NUMBER_OF_THREADS=1
 export PATH=/software/afni:$PATH
 export PATH=/software/matlab_versions/2010b/bin/:$PATH
